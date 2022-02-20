@@ -71,9 +71,7 @@
 - Saved and exported the results to an HDF5 file, and named it AlphabetSoupCharity1.h5
 - The optimized model had about *77% accuracy rate*
 
-**Results**
-
-By doing the above tweaks, the accuracy of the model increased from *72% to 77%*
+The model's accuracy increased from *72 percent to 77 percent* after the above tweaks were made
 
 ![Optimization](/images/2.jpg)
 
@@ -91,7 +89,9 @@ If an applicant possesses the following characteristics, they have about an 80% 
 - The *APPLICATION_TYPE* of the applicant is one of the given types: T3, T4, T6, T5, T19, T8, T7 and T10
 - Lastly, the government organization classification is one of these: C1000, C2000, C1200, C3000, C2100
 
-Classification models include logistic regression, decision tree, random forest, gradient-boosted tree, multilayer perceptron, one-vs-rest, and Naive Bayes.
+*Classification models include logistic regression, decision tree, random forest, gradient-boosted tree, multilayer perceptron, one-vs-rest, and Naive Bayes*
+
+#### Results ✅
 
 For our classification purposes, the recommended model is *Random Forest Model* which produces about 77% accuracy
 
