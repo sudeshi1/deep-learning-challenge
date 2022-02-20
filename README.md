@@ -92,6 +92,8 @@ Classification models include logistic regression, decision tree, random forest,
 
 For our classification purposes, the recommended model is *Random Forest Model* which produces about 77% accuracy
 
+![Random Forest](/images/3.jpg)
+
 
 
 
