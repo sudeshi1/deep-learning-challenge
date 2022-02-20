@@ -54,7 +54,8 @@
 - Compile and train the model
 - Create a callback that saves the model's weights every 5 epochs
 - Evaluate the model using the test data to determine the loss and accuracy
-- Save and export your results to an HDF5 file, and name it AlphabetSoupCharity.h5
+- Saved and exported the results to an HDF5 file, and named it AlphabetSoupCharity.h5
+- The model's first iteration had about *72% accuracy rate*
 
 ![Starter](/images/1.jpg)
 
@@ -62,11 +63,13 @@
 
 - Optimized the model in order to achieve a target perdictive accuracy higher than 75%
 - Adjusted the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as: 
-* Dropped only *EIN* column
-* Created 3 bins for rare occurrences in columns
-* Increased/Decreased the number of values for each bin
-* Used different activation functions for the hidden layers
-* Reduced the number of epochs to the training regimen
+    * Dropped only *EIN* column
+    * Created 3 bins for rare occurrences in columns
+    * Increased/Decreased the number of values for each bin
+    * Used different activation functions for the hidden layers
+    * Reduced the number of epochs to the training regimen
+- Saved and exported the results to an HDF5 file, and named it AlphabetSoupCharity1.h5
+- The optimized model had about *77% accuracy rate*
 
 **Results**
 
